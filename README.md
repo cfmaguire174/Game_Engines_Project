@@ -2,13 +2,14 @@
 
 # Project Title
 
-Name:
+Name: Conor Maguire
 
-Student Number: 
+Student Number: D18124735
 
-Class Group:
+Class Group: TU856
 
-# Description of the project
+# Description 
+
 
 # Instructions for use
 
@@ -51,7 +52,7 @@ This is a [hyperlink](http://bryanduggan.org)
 
 This is code:
 
-```Java
+```C#
 public void render()
 {
 	ui.noFill();
