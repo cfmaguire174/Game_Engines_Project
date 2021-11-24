@@ -9,7 +9,11 @@ Student Number: D18124735
 Class Group: TU856
 
 # Description 
+A Proceduraly generation landscape that the player would be able to build or deconstruct a house in.
 
+The landscape will be generated using a noise map (Mathf.perlin()) and the house building will be box based like minecraft with boxes clipping to one another.
+
+Hopefully different biomes can be added but this will be a later feature.
 
 # Instructions for use
 
@@ -26,8 +30,6 @@ Class Group: TU856
 # References
 
 # What I am most proud of in the assignment
-
-# Proposal submitted earlier can go here:
 
 ## This is how to markdown text:
 
@@ -63,18 +65,6 @@ public void render()
 }
 ```
 
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
 
 This is an image using a relative URL:
 
